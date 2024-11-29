@@ -1,0 +1,260 @@
+/* General Reset for margin, padding and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #5f6368;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e55b50;
+}
+
+/* About Overview Section */
+.about-overview {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-overview p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    background-color: #5f6368;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.learn-more:hover {
+    background-color: #484c50;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    background-color: #e8e8e8;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    text-align: center;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Donation Section */
+.donation {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.donation h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.donation p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.donation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.donation ul li {
+    margin: 10px;
+}
+
+.donation ul li a {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.donation ul li a:hover {
+    background-color: #e55b50;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.about{
+    img:center;
+    text-align: center;
+    background-color:beige;
+}
+ .about img{
+    width: 100%;
+    padding: 20px;
+ }
+
+    .form-group textarea {
+        width: 100%;           
+        padding: 12px;         
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        resize: vertical;      
+        box-sizing: border-box; 
+    }
+
+.services{
+    text-align: center;
+    background-color: beige;
+}
+.services img{
+    width: 50%;
+    padding: 20px;
+}
+
+ .contact{
+    text-align: center;
+    background-color: beige;
+ }
+ 
+ .contact img{
+    width: 50%;
+    padding: 20px;
+ }
